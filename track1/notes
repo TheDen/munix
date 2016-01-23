@@ -1,0 +1,1 @@
+echo "main(t){for(t=0;;t++)putchar(t*3*(21&t>>11));}" | gcc -xc -o c - ; chmod a+rx c; ./c | aplay --format u8 --rate 4000﻿

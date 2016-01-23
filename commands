@@ -1,0 +1,5 @@
+# Generally works catting to /dev/audio or /dev/dsp
+# [COMMAND] |  padsp tee  /dev/audio
+
+# Can also pipe to aplay, e.g., [COMMAND] | aplay
+
